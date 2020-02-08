@@ -1,0 +1,75 @@
+//stack adt
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdio.h>
+#define size 10
+int top=-1;
+int a[size];
+void push(int n)
+{
+            top++;
+            a[top]=data;
+            printf("\n %d",a[top]);
+}
+
+int pop()
+{
+            int x;
+            if()
+            printf("\n This Number is deleted %d !!!!",a[top]);
+            x=a[top];
+            top--;
+            return x;
+}
+
+int main()
+{
+      int ch,pos,res,x;
+      char pos[30];
+      printf("\n Enter the postfix expression :");
+      scanf("%s",pos);
+      ch=pos[0];
+      while(ch!=NULL)
+      {
+            if(ch>=0&&ch<=9)
+            {
+                  x=(int)ch;
+                  push(x);
+            }
+            else if(ch=='+')
+            {
+                  op1=pop();
+                  op2=pop();
+                  res=op1+op2;                
+                  push(res);
+            }      
+            else if(ch=='-')
+            {
+                  op1=pop();
+                  op2=pop();
+                  res=op1-op2;                
+                  push(res);
+            }      
+            else if(ch=='*')
+            {
+                  op1=pop();
+                  op2=pop();
+                  res=op1*op2;                
+                  push(res);
+            }      
+            else if(ch=='/')
+            {
+                  op1=pop();
+                  op2=pop();
+                  res=op1/op2;                
+                  push(res);
+            } 
+            i++;     
+            ch=pos[i]
+      }
+}
+
+/* output :
+
+
+*/

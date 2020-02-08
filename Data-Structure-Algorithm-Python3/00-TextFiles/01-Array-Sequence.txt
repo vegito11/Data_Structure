@@ -1,0 +1,7 @@
+====================================== Array Sequence ====================================================
+01) Amortized Analysis : 
+	
+	- Using an algotrthmic design pattern called amortization .
+	- We can show that performing a Sequence of such append operations on a dynamic array is actually 
+	  quite efficient . 
+__________________________________________________________________________________________________________
